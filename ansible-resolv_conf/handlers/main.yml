@@ -1,0 +1,6 @@
+---
+  # handlers file for resolv_conf (RedHat specific)
+- name: reload NetworkManager
+  service:
+    name: NetworkManager
+    state: reloaded
