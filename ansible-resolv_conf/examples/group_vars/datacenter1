@@ -1,0 +1,9 @@
+# group_vars/datacenter1: Variables for servers in datacenter1
+---
+# DNS servers to use
+resolv_conf_nameservers:
+  - 8.8.8.8
+  - 8.8.4.4
+
+resolv_conf_search_domains:
+  datacenter1.org
